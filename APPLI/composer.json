@@ -1,0 +1,9 @@
+{
+    "name": "gdavi/appli",
+    "autoload": {
+        "psr-4": {
+            "Gdavi\\Appli\\": "src/"
+        }
+    },
+    "require": {}
+}

@@ -1,0 +1,19 @@
+User
+j'ai cette table 
+
+DROP TABLE IF EXISTS `t_typeetab`;
+CREATE TABLE `t_typeetab` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nom` varchar(25) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL,
+  `nomcourt` varchar(5) CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_bin;
+
+j'aimerais qu'elle devienne comme ça 
+
+
+CREATE TABLE `t_typeetab` (
+  `idtypeetab` int(11) NOT NULL,
+  `nom_typeetab` varchar(25) CHARACTER SET utf8 NOT NULL,
+  `nomcourt_typeetab` varchar(5) COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
